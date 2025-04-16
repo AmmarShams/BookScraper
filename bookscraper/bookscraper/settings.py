@@ -69,7 +69,6 @@ ITEM_PIPELINES = {
     "bookscraper.pipelines.SaveToMySqlMyPipeline": 400,
 }
 
-SCRAPEOPS_API_KEY = '60081c8e-9ede-4c61-8cc3-6866e6580278'
 SCRAPEOPS_FAKE_USER_AGENT_ENDPOINT = 'https://headers.scrapeops.io/v1/user-agents'
 SCRAPEOPS_FAKE_USER_AGENT_ACTIVE = True
 SCRAPEOPS_NUM_RESULTS = 50
